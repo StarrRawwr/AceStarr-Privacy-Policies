@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Receipt.Log — Privacy Policy</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: #1a1a1a;
+      color: #d1d5db;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.7;
+    }
+
+    /* ── Header ── */
+    header {
+      background: #1e2327;
+      border-bottom: 2px solid #2251CC;
+      padding: 28px 24px 24px;
+      text-align: center;
+    }
+
+    header .badge {
+      display: inline-block;
+      background: #2251CC;
+      color: #fff;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      padding: 4px 12px;
+      border-radius: 20px;
+      margin-bottom: 14px;
+    }
+
+    header h1 {
+      color: #ffffff;
+      font-size: 28px;
+      font-weight: 700;
+      letter-spacing: -.01em;
+    }
+
+    header h1 span {
+      color: #2251CC;
+    }
+
+    header p.sub {
+      color: #979A9C;
+      font-size: 13px;
+      margin-top: 8px;
+    }
+
+    /* ── Main container ── */
+    main {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 40px 24px 64px;
+    }
+
+    /* ── Intro block ── */
+    .intro {
+      background: #1e2327;
+      border-left: 4px solid #2251CC;
+      border-radius: 0 8px 8px 0;
+      padding: 20px 24px;
+      margin-bottom: 36px;
+      color: #e5e7eb;
+      font-size: 15px;
+    }
+
+    .intro strong {
+      color: #ffffff;
+    }
+
+    /* ── Section cards ── */
+    section {
+      background: #1e2327;
+      border: 1px solid #2a2e33;
+      border-radius: 10px;
+      padding: 24px 28px;
+      margin-bottom: 20px;
+    }
+
+    section h2 {
+      color: #ffffff;
+      font-size: 15px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .08em;
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    section h2::before {
+      content: '';
+      display: inline-block;
+      width: 6px;
+      height: 6px;
+      background: #2251CC;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+
+    section p {
+      color: #b0b4b8;
+      font-size: 15px;
+      line-height: 1.75;
+    }
+
+    /* ── Footer ── */
+    footer {
+      border-top: 1px solid #2a2e33;
+      text-align: center;
+      padding: 32px 24px;
+      color: #5a5f65;
+      font-size: 13px;
+    }
+
+    footer a {
+      color: #2251CC;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    .footer-row {
+      display: flex;
+      justify-content: center;
+      gap: 24px;
+      flex-wrap: wrap;
+      margin-top: 8px;
+    }
+
+    /* ── Effective date chip ── */
+    .date-chip {
+      display: inline-block;
+      background: #2a2e33;
+      color: #979A9C;
+      font-size: 12px;
+      padding: 3px 10px;
+      border-radius: 20px;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="badge">Privacy Policy</div>
+  <h1>Receipt<span>.Log</span></h1>
+  <p class="sub">by AceStarr Solutions</p>
+  <div class="date-chip">Effective May 2025</div>
+</header>
+
+<main>
+
+  <div class="intro">
+    <strong>Receipt.Log</strong> is published by AceStarr Solutions and is built on
+    a local-first approach. We do not require user accounts, we do not run
+    advertising or analytics SDKs, and we do not store your receipt or expense data on
+    AceStarr Solutions servers.
+  </div>
+
+  <section>
+    <h2>Data Stored on Your Device</h2>
+    <p>
+      Receipt.Log stores your expense information on your device, including merchant names,
+      amounts, dates, categories, project labels, notes, and receipt image references you
+      attach inside the app. This information may be included in your normal device backup
+      systems, such as iCloud or Google backup, depending on your device settings.
+    </p>
+  </section>
+
+  <section>
+    <h2>Camera &amp; Photo Library</h2>
+    <p>
+      If you choose to photograph or import receipts inside Receipt.Log, the app may
+      request access to your camera or photo library. Images captured or selected in
+      the app are used only for your local expense records and are not uploaded to
+      AceStarr Solutions servers by the app itself.
+    </p>
+  </section>
+
+  <section>
+    <h2>Biometric Authentication &amp; PIN</h2>
+    <p>
+      Receipt.Log can use device-level biometric authentication or a PIN you configure to
+      help protect access to your workspace. Security data needed for this feature is
+      stored locally on your device using the platform's secure storage.
+    </p>
+  </section>
+
+  <section>
+    <h2>Exports &amp; Sharing</h2>
+    <p>
+      Receipt.Log allows you to export CSV reports and share receipt records. Exported files
+      are created only at your direction. Once you send or store an exported file outside the
+      app, its handling is governed by the destination you chose — your email provider, file
+      app, or cloud storage provider.
+    </p>
+  </section>
+
+  <section>
+    <h2>No Analytics or Advertising</h2>
+    <p>
+      Receipt.Log does not use third-party analytics or advertising SDKs to profile you
+      or track your behavior. The app relies on standard platform and Expo libraries to
+      provide local storage, camera access, biometric authentication, and sharing
+      capabilities.
+    </p>
+  </section>
+
+  <section>
+    <h2>Data Retention</h2>
+    <p>
+      Your records remain on your device until you edit or delete them, clear the app's
+      data, or remove the app. If your device backups include app data, copies may also
+      remain in those backups until you manage them through your platform provider.
+    </p>
+  </section>
+
+  <section>
+    <h2>Policy Updates</h2>
+    <p>
+      If this privacy policy changes, the updated version will be reflected in the app
+      and in the public policy URL used for distribution.
+    </p>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p>
+      For privacy questions about Receipt.Log, use the developer contact published on the
+      app listing or support channel provided by AceStarr Solutions. Before submitting
+      to Google Play, make sure the same contact email shown in your Play Console
+      listing is active and publicly reachable.
+    </p>
+  </section>
+
+</main>
+
+<footer>
+  <div>Receipt.Log &mdash; AceStarr Solutions</div>
+  <div class="footer-row">
+    <a href="https://StarrRawwr.github.io/AceStarr-Privacy-Policies/asset-pro.html">Asset.Pro Privacy Policy</a>
+    <a href="https://acestarr.vip">acestarr.vip</a>
+  </div>
+</footer>
+
+</body>
+</html>
